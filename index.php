@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm fixed-top bg-white">
+        <nav class="navbar navbar-expand-sm bg-white">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="img/logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
@@ -97,7 +97,7 @@
         </div>
     </header>
 
-    <main class="pt-4">
+    <main>
         <!-- Carousel -->
         <div class="container-fluid mb-5">
             <div id="featured-phones" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -209,59 +209,44 @@
             </div>
         </div>
 
-        <!-- CATEGORIE-BUTTONS BAR -->
-        <div class="p-2">
-            <div class="container d-flex justify-content-center gap-3 flex-wrap">
 
-                <button class="btn btn-light px-4 py-2 d-flex align-items-center gap-2">
+        <!-- CATEGORIE-BUTTONS BAR -->
+        <h2 class="text-primary pt-5">Ga direct naar</h2>
+        <div class="p-3">
+            <div class="container d-flex justify-content-center gap-3 flex-wrap">
+                <button class="btn btn-light btn-lg px-5 py-3 d-flex align-items-center gap-3 fs-5">
                     <i class="bi bi-phone"></i>
                     Telefoons
                 </button>
-
-                <button class="btn btn-light px-4 py-2 d-flex align-items-center gap-2">
+                <button class="btn btn-light btn-lg px-5 py-3 d-flex align-items-center gap-3 fs-5">
                     <i class="bi bi-sim"></i>
                     Sim Only
                 </button>
-
-                <button class="btn btn-light px-4 py-2 d-flex align-items-center gap-2">
+                <button class="btn btn-light btn-lg px-5 py-3 d-flex align-items-center gap-3 fs-5">
                     <i class="bi bi-headset"></i>
                     Klanten service
                 </button>
-
             </div>
         </div>
 
         <!-- MERKEN -->
-        <div class="container py-5">
-            <h3 class="text-primary fw-bold mb-4">Onze merken</h3>
-
-            <div class="row g-3">
-                <div class="col-6 col-md-3">
-                    <div class="brand-card">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple">
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-3">
-                    <div class="brand-card">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung">
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-3">
-                    <div class="brand-card">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-3">
-                    <div class="brand-card">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/OPPO_LOGO_2019.svg" alt="Oppo">
-                    </div>
-                </div>
+        <h2 class="text-primary pt-5">Onze Merken</h2>
+        <div class="p-3">
+            <div class="container d-flex justify-content-around gap-3 flex-wrap">
+                <button class="btn btn-light btn-lg btn-brand px-5 py-3">
+                    <i class="bi bi-apple"></i>
+                </button>
+                <button class="btn btn-light btn-lg btn-brand px-5 py-3">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Samsung_wordmark.svg" alt="" width="64px">
+                </button>
+                <button class="btn btn-light btn-lg btn-brand px-5 py-3">
+                    <i class="bi bi-google"></i>
+                </button>
+                <button class="btn btn-light btn-lg btn-brand px-5 py-2">
+                    <img src="https://miro.medium.com/1*nYbKJr9SdqE9AwmpwXYx5w.png" alt="" width="48px">
+                </button>
             </div>
-
-
+        </div>
     </main>
 </body>
 

@@ -55,12 +55,12 @@ body {
 
 /* main */
 main {
-    margin-top: var(--navbar-height);
     margin-inline: 10%;
 }
 
 #featured-phones {
     height: 500px;
+    margin-bottom: 200px;
 }
 
 .carousel-control-prev {
@@ -69,4 +69,9 @@ main {
 
 .carousel-control-next {
     right: max(-120px, -15%);
+}
+
+.btn-brand {
+    width: 23%;
+    height: 64px;
 }
