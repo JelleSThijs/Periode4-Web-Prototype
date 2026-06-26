@@ -37,10 +37,10 @@
                         <li class="nav-item dropdown">
                             <button class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Smartphones</button>
                             <ul class="dropdown-menu single-note-list">
-                                <li><a class="dropdown-item" href="#">Apple</a></li>
-                                <li><a class="dropdown-item" href="#">Samsung</a></li>
-                                <li><a class="dropdown-item" href="#">Google</a></li>
-                                <li><a class="dropdown-item" href="#">OnePlus</a></li>
+                                <li><a class="dropdown-item" href="phones.php?b=apple">Apple</a></li>
+                                <li><a class="dropdown-item" href="phones.php?b=samsung">Samsung</a></li>
+                                <li><a class="dropdown-item" href="phones.php?b=google">Google</a></li>
+                                <li><a class="dropdown-item" href="phones.php?b=onePlus">OnePlus</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -99,7 +99,7 @@
 
     <main>
         <!-- Carousel -->
-        <div class="container-fluid mb-5">
+        <div class="container-fluid mt-5 mb-5">
             <div id="featured-phones" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner h-100">
                     <div class="carousel-item h-100 overflow-hidden border-5 rounded-5 border border-primary-subtle active">
@@ -135,7 +135,7 @@
                                 <div class="col-7 d-flex flex-column justify-content-center">
                                     <div class="card-header">
                                         <p class="mb-1 text-white">Samsung</p>
-                                        <h5 class="card-title text-white">Galaxy S26 <span class="badge bg-light text-primary">NEW</span></h5>
+                                        <h5 class="card-title text-white">Galaxy S26 <span class="badge bg-light text-primary">Populair</span></h5>
                                     </div>
                                     <div class="card-body">
                                         <p class="card-text text-white">Ervaar ongekende prestaties met de allernieuwste processor en een revolutionair camerasysteem boordevol AI-functies.</p>
