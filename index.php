@@ -22,62 +22,62 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm fixed-top bg-white">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
-                <span class="d-none d-md-inline">TellYourPhone</span>
-            </a>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                    <span class="d-none d-md-inline">TellYourPhone</span>
+                </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav single-note">
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav single-note">
+                        <li class="nav-item dropdown">
+                            <button class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Smartphones</button>
+                            <ul class="dropdown-menu single-note-list">
+                                <li><a class="dropdown-item" href="#">Apple</a></li>
+                                <li><a class="dropdown-item" href="#">Samsung</a></li>
+                                <li><a class="dropdown-item" href="#">Google</a></li>
+                                <li><a class="dropdown-item" href="#">Motorola</a></li>
+                                <li><a class="dropdown-item" href="#">OnePlus</a></li>
+                                <li><a class="dropdown-item" href="#">Oppo</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Abonnementen</button>
+                            <ul class="dropdown-menu single-note-list">
+                                <li><a class="dropdown-item" href="#">TMobile</a></li>
+                                <li><a class="dropdown-item" href="#">Lebara</a></li>
+                                <li><a class="dropdown-item" href="#">Vodafone</a></li>
+                                <li><a class="dropdown-item" href="#">Simpel</a></li>
+                                <li><a class="dropdown-item" href="#">Simyo</a></li>
+                            </ul>
+                        <li class="nav-item"><a class="nav-link" href="#">Klantenservice</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right side icons -->
+                <ul class="navbar-nav ms-auto flex-row gap-1">
+                    <!-- User button -->
                     <li class="nav-item dropdown">
-                        <button class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Smartphones</button>
-                        <ul class="dropdown-menu single-note-list">
-                            <li><a class="dropdown-item" href="#">Apple</a></li>
-                            <li><a class="dropdown-item" href="#">Samsung</a></li>
-                            <li><a class="dropdown-item" href="#">Google</a></li>
-                            <li><a class="dropdown-item" href="#">Motorola</a></li>
-                            <li><a class="dropdown-item" href="#">OnePlus</a></li>
-                            <li><a class="dropdown-item" href="#">Oppo</a></li>
-                        </ul>
+                        <button class="btn nav-link px-2" data-bs-toggle="dropdown" aria-label="User menu">
+                            <i class="bi bi-person fs-5"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end p-3" style="min-width: 220px;">
+                            <h6 class="dropdown-header">Inloggen</h6>
+                            <div class="mb-2">
+                                <input type="text" class="form-control form-control-sm" placeholder="Gebruikersnaam">
+                            </div>
+                            <div class="mb-2">
+                                <input type="password" class="form-control form-control-sm" placeholder="Wachtwoord">
+                            </div>
+                            <button class="btn btn-primary btn-sm w-100 mb-2">Inloggen</button>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-center" href="#">Registreren</a>
+                        </div>
                     </li>
-                    <li class="nav-item dropdown">
-                        <button class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Abonnementen</button>
-                        <ul class="dropdown-menu single-note-list">
-                            <li><a class="dropdown-item" href="#">TMobile</a></li>
-                            <li><a class="dropdown-item" href="#">Lebara</a></li>
-                            <li><a class="dropdown-item" href="#">Vodafone</a></li>
-                            <li><a class="dropdown-item" href="#">Simpel</a></li>
-                            <li><a class="dropdown-item" href="#">Simyo</a></li>
-                        </ul>
-                    <li class="nav-item"><a class="nav-link" href="#">Klantenservice</a></li>
-                </ul>
-            </div>
-
-            <!-- Right side icons -->
-            <ul class="navbar-nav ms-auto flex-row gap-1">
-                <!-- User button -->
-                <li class="nav-item dropdown">
-                    <button class="btn nav-link px-2" data-bs-toggle="dropdown" aria-label="User menu">
-                        <i class="bi bi-person"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-end p-3" style="min-width: 220px;">
-                        <h6 class="dropdown-header">Inloggen</h6>
-                        <div class="mb-2">
-                            <input type="text" class="form-control form-control-sm" placeholder="Gebruikersnaam">
-                        </div>
-                        <div class="mb-2">
-                            <input type="password" class="form-control form-control-sm" placeholder="Wachtwoord">
-                        </div>
-                        <button class="btn btn-primary btn-sm w-100 mb-2">Inloggen</button>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-center" href="#">Registreren</a>
-                    </div>
-                </li>
 
                     <!-- Search button -->
                     <li class="nav-item">
@@ -85,14 +85,16 @@
                             <i class="bi bi-search fs-5"></i>
                         </button>
                     </li>
-            </ul>
-        </div>
-    </nav>
+                </ul>
+            </div>
+        </nav>
 
-    <!-- Search bar -->
-        <div class="container-fluid collapse bg-white border-bottom" id="searchCollapse">
-        <div class="input-group p-2">
-            <input type="text" class="form-control" placeholder="Zoeken...">
+        <div class="container-fluid collapse bg-white border-bottom align-content-center" id="searchCollapse">
+            <div class="input-group px-2">
+                <input type="text" class="form-control" placeholder="Zoeken...">
+                <button class="btn btn-outline-primary" type="button">
+                    <i class="bi bi-search"></i>
+                </button>
             </div>
         </div>
     </header>
@@ -103,9 +105,39 @@
 
             <!-- Indicators/dots -->
             <div class="carousel-indicators">
-            <button class="btn btn-outline-secondary" id="searchClose">✕</button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/accordeon.jpeg" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="img/stagepiano.webp" alt="">
+                </div>
+
+                <div class="item">
+                    <img src="img/strato.jpeg" alt="">
+                </div>
+            </div>
+
         </div>
-    </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        </div>
+
+
+    </main>
 </body>
 
 

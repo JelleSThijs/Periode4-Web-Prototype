@@ -1,4 +1,5 @@
 :root{
+    height: 100%;
     margin: 0;
     padding: 0;
     /* color-scheme: light dark; */
@@ -7,12 +8,16 @@
     --content-color: light-dark(#333b3c, #efefec);
     --midle-color: light-dark(#333b3c, #efefec);
     --background-color: light-dark(#efefec, #333b3c);
+    --navbar-height: 0px;
 }
 
 body {
+    height: 100%;
     background-color: var(--background-color);
 }
 
+
+/* header / navbar */
 .navbar-nav {
     gap: 12px;
 }
@@ -25,10 +30,30 @@ body {
     background-size: 16px 16px;
 }
 
-.single-note-list > li > a{
+.single-note-list > li > a {
     padding-left: 32px;
     background-image: url('img/single_note_stripe.svg');
     background-repeat: no-repeat;
     background-position: 12px center;
     background-size: 16px 16px;
+}
+
+#searchCollapse {
+    height: var(--navbar-height);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-out;
+}
+
+#searchCollapse.show {
+    transform: translateY(0);
+}
+
+
+/* main */
+main {
+    margin-top: var(--navbar-height);
 }
