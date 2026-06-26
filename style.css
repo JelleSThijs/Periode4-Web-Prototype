@@ -22,6 +22,14 @@ body {
     gap: 12px;
 }
 
+.navbar {
+    z-index: 1050;
+}
+
+.sticky-top {
+    z-index: 10;
+}
+
 .single-note > li {
     padding-left: 12px;
     background-image: url('img/single_note.svg');

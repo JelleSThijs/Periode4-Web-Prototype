@@ -23,7 +23,7 @@
     <header>
         <nav class="navbar navbar-expand-sm bg-white">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.php">
                     <img src="img/logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
                     <span class="d-none d-md-inline">TellYourPhone</span>
                 </a>
