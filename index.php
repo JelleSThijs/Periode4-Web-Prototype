@@ -108,4 +108,21 @@
     </div>
 </body>
 
+
+<script>
+    document.addEventListener('click', function(e) {
+        const searchCollapse = document.getElementById('searchCollapse');
+        const searchToggle = document.getElementById('searchToggle');
+
+        if (searchCollapse.classList.contains('show') &&
+            !searchCollapse.contains(e.target) &&
+            !searchToggle.contains(e.target)) {
+            bootstrap.Collapse.getInstance(searchCollapse).hide();
+        }
+    });
+
+    // get navbar height
+    document.documentElement.style.setProperty('--navbar-height', document.querySelector('.navbar').offsetHeight + 'px');
+</script>
+
 </html>
