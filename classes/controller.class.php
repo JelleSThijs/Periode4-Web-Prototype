@@ -2,34 +2,17 @@
 class Controller
 {
     /**
-     * Loads phones from a JSON file and returns an array of Phone objects.
-     * @param string $filePath Path to the JSON file
-     * @return Phone[] Array of Phone instances
-     * @throws Exception If the file is missing or JSON is invalid
+     * Loads phones and returns them as an associative array [id => PhoneObject]
      */
-    public function createPhonesFromJson(string $filePath): array
-    {
-        // 1. Check if the file exists
-        if (!file_exists($filePath)) {
-            throw new Exception("JSON file not found at: " . $filePath);
-        }
-
-        // 2. Read the file contents
+    public function createPhonesFromJson(string $filePath): array {
+        if (!file_exists($filePath)) throw new Exception("File not found: " . $filePath);
         $jsonData = file_get_contents($filePath);
-
-        // 3. Decode JSON into an associative array
         $phonesArray = json_decode($jsonData, true);
 
-        // 4. Validate JSON parsing
-        if (json_last_error() !== JSON_ERROR_NONE) {
-            throw new Exception("Invalid JSON format: " . json_last_error_msg());
-        }
-
         $phoneObjects = [];
-
-        // 5. Loop through data and instantiate Phone objects
         foreach ($phonesArray as $data) {
-            $phoneObjects[] = new Phone(
+            // Key the array by the ID
+            $phoneObjects[(int)$data['id']] = new Phone(
                 (int)    $data['id'],
                 (string) $data['brand'],
                 (string) $data['model'],
@@ -40,7 +23,29 @@ class Controller
                 (array)  ($data['colors'] ?? []),
             );
         }
-
         return $phoneObjects;
+    }
+
+    /**
+     * Loads plans and returns them as an associative array [id => PhonePlanObject]
+     */
+    public function createPhonePlansFromJson(string $filePath): array {
+        if (!file_exists($filePath)) throw new Exception("File not found: " . $filePath);
+        $jsonData = file_get_contents($filePath);
+        $plansArray = json_decode($jsonData, true);
+
+        $planObjects = [];
+        foreach ($plansArray as $data) {
+            // Key the array by the ID
+            $planObjects[(int)$data['id']] = new PhonePlan(
+                (int)    $data['id'],
+                (string) $data['brand'],
+                (int)    $data['dataGb'],
+                (int)    $data['sms'],
+                (int)    $data['callMinutes'],
+                (float)  $data['price']
+            );
+        }
+        return $planObjects;
     }
 }

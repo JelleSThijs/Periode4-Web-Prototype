@@ -23,12 +23,18 @@ body {
 }
 
 .navbar {
-    z-index: 1050;
+    z-index: 1010;
 }
 
 .sticky-top {
     z-index: 10;
 }
+
+#searchCollapse {
+    z-index: 1090;
+}
+
+
 
 .single-note > li {
     padding-left: 12px;

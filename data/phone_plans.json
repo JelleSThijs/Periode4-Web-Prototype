@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "brand": "KPN",
+    "dataGb": 5,
+    "sms": 150,
+    "callMinutes": 150,
+    "price": 14.5
+  },
+  {
+    "id": 2,
+    "brand": "Odido",
+    "dataGb": 15,
+    "sms": 9999,
+    "callMinutes": 9999,
+    "price": 20.0
+  },
+  {
+    "id": 3,
+    "brand": "Vodafone",
+    "dataGb": 25,
+    "sms": 9999,
+    "callMinutes": 9999,
+    "price": 24.5
+  },
+  {
+    "id": 4,
+    "brand": "Simyo",
+    "dataGb": 2,
+    "sms": 200,
+    "callMinutes": 200,
+    "price": 9.0
+  },
+  {
+    "id": 5,
+    "brand": "KPN",
+    "dataGb": 0,
+    "sms": 9999,
+    "callMinutes": 9999,
+    "price": 32.5
+  },
+  {
+    "id": 6,
+    "brand": "Odido",
+    "dataGb": 0,
+    "sms": 9999,
+    "callMinutes": 9999,
+    "price": 29.0
+  }
+]

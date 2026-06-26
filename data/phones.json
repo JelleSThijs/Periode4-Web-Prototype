@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "brand": "Apple",
         "model": "iPhone 17 Pro",
         "description": "Met de krachtige A19 Pro-chip en vernieuwde Apple Intelligence.",
@@ -10,7 +10,7 @@
         "colors": ["Desert Titanium", "Natural Titanium", "White Titanium", "Black Titanium"]
     },
     {
-        "id": 2,
+        "id": 1,
         "brand": "Samsung",
         "model": "Galaxy S26",
         "description": "Ervaar ultieme AI-functies met een geavanceerd camerasysteem.",
@@ -20,7 +20,7 @@
         "colors": ["Icy Blue", "Midnight Black", "Silver Shadow", "Coral Pink"]
     },
     {
-        "id": 3,
+        "id": 2,
         "brand": "Google",
         "model": "Pixel 10",
         "description": "De puurste Android-ervaring met ongeëvenaarde nachtfotografie.",
@@ -30,7 +30,7 @@
         "colors": ["Obsidian", "Porcelain", "Wintergreen", "Peony"]
     },
     {
-        "id": 4,
+        "id": 3,
         "brand": "OnePlus",
         "model": "OnePlus 15",
         "description": "Supersnel 150W laden en een vloeiend 120Hz display.",
@@ -40,7 +40,7 @@
         "colors": ["Black Eclipse", "Arctic Dawn", "Midnight Ocean"]
     },
     {
-        "id": 5,
+        "id": 4,
         "brand": "Apple",
         "model": "iPhone 17",
         "description": "De perfecte balans tussen prestaties en batterijduur.",
@@ -50,17 +50,17 @@
         "colors": ["Ultramarine", "Teal", "Pink", "White", "Black"]
     },
     {
-        "id": 6,
+        "id": 5,
         "brand": "Samsung",
         "model": "Galaxy S26 Ultra",
         "description": "Inclusief S-Pen en een 200MP zoomcamera voor ultieme details.",
         "price": 59.0,
         "releaseDate": "2026-02-11",
         "imagePath": "img/phones/samsung-galaxy-s26-ultra-new.jpg",
-        "colors": ["Titanium Silverblue", "Titanium Black", "Titanium White", "Titanium Gray"]
+        "colors": ["Titanium Silverblue", "Titanium Black", "Titan White", "Titanium Gray"]
     },
     {
-        "id": 7,
+        "id": 6,
         "brand": "Google",
         "model": "Pixel 10 Pro",
         "description": "Professionele camera-instellingen en het helderste Super Actua-scherm.",
@@ -70,7 +70,7 @@
         "colors": ["Obsidian", "Porcelain", "Hazel", "Rose Quartz"]
     },
     {
-        "id": 13,
+        "id": 7,
         "brand": "Samsung",
         "model": "Galaxy Z Fold 7",
         "description": "Vouwbaar meesterwerk voor maximale productiviteit en multitasking.",
@@ -80,7 +80,7 @@
         "colors": ["Navy", "Silver Shadow", "Titanium Gray"]
     },
     {
-        "id": 14,
+        "id": 8,
         "brand": "Apple",
         "model": "iPhone SE (2026)",
         "description": "Compact formaat met de rekenkracht van een volwaardige iPhone.",
@@ -90,7 +90,7 @@
         "colors": ["Midnight", "Starlight", "Red"]
     },
     {
-        "id": 15,
+        "id": 9,
         "brand": "OnePlus",
         "model": "Nord 5",
         "description": "Premium functies voor een verrassend toegankelijke prijs.",
@@ -100,7 +100,7 @@
         "colors": ["Slate Gray", "Aqua Boost", "Marble White"]
     },
     {
-        "id": 16,
+        "id": 10,
         "brand": "Google",
         "model": "Pixel 10a",
         "description": "De slimme en voordelige keuze met de beste AI-fotofuncties.",
@@ -110,7 +110,7 @@
         "colors": ["Obsidian", "Porcelain", "Aloe"]
     },
     {
-        "id": 18,
+        "id": 11,
         "brand": "Samsung",
         "model": "Galaxy Z Flip 7",
         "description": "Stijlvol, compact en opvouwbaar met een vernieuwd coverscherm.",
