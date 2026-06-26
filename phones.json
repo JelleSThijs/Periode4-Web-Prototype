@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "brand": "Apple",
+        "model": "iPhone 17 Pro",
+        "description": "Met de krachtige A19 Pro-chip en vernieuwde Apple Intelligence.",
+        "price": 49.0,
+        "releaseDate": "2025-09-20",
+        "imagePath": "img/phones/iphone 17 pro.svg",
+        "colors": ["Desert Titanium", "Natural Titanium", "White Titanium", "Black Titanium"]
+    },
+    {
+        "id": 2,
+        "brand": "Samsung",
+        "model": "Galaxy S26",
+        "description": "Ervaar ultieme AI-functies met een geavanceerd camerasysteem.",
+        "price": 42.0,
+        "releaseDate": "2026-02-11",
+        "imagePath": "img/phones/s26.svg",
+        "colors": ["Icy Blue", "Midnight Black", "Silver Shadow", "Coral Pink"]
+    },
+    {
+        "id": 3,
+        "brand": "Google",
+        "model": "Pixel 10",
+        "description": "De puurste Android-ervaring met ongeëvenaarde nachtfotografie.",
+        "price": 34.0,
+        "releaseDate": "2025-10-15",
+        "imagePath": "img/phones/pixel 10.webp",
+        "colors": ["Obsidian", "Porcelain", "Wintergreen", "Peony"]
+    },
+    {
+        "id": 4,
+        "brand": "OnePlus",
+        "model": "OnePlus 15",
+        "description": "Supersnel 150W laden en een vloeiend 120Hz display.",
+        "price": 36.0,
+        "releaseDate": "2026-01-25",
+        "imagePath": "img/phones/oneplus 15.avif",
+        "colors": ["Black Eclipse", "Arctic Dawn", "Midnight Ocean"]
+    },
+    {
+        "id": 5,
+        "brand": "Apple",
+        "model": "iPhone 17",
+        "description": "De perfecte balans tussen prestaties en batterijduur.",
+        "price": 39.0,
+        "releaseDate": "2025-09-20",
+        "imagePath": "img/phones/apple-iphone-17-1.jpg",
+        "colors": ["Ultramarine", "Teal", "Pink", "White", "Black"]
+    },
+    {
+        "id": 6,
+        "brand": "Samsung",
+        "model": "Galaxy S26 Ultra",
+        "description": "Inclusief S-Pen en een 200MP zoomcamera voor ultieme details.",
+        "price": 59.0,
+        "releaseDate": "2026-02-11",
+        "imagePath": "img/phones/samsung-galaxy-s26-ultra-new.jpg",
+        "colors": ["Titanium Silverblue", "Titanium Black", "Titanium White", "Titanium Gray"]
+    },
+    {
+        "id": 7,
+        "brand": "Google",
+        "model": "Pixel 10 Pro",
+        "description": "Professionele camera-instellingen en het helderste Super Actua-scherm.",
+        "price": 44.0,
+        "releaseDate": "2025-10-15",
+        "imagePath": "img/phones/google-pixel-10-pro-.jpg",
+        "colors": ["Obsidian", "Porcelain", "Hazel", "Rose Quartz"]
+    },
+    {
+        "id": 13,
+        "brand": "Samsung",
+        "model": "Galaxy Z Fold 7",
+        "description": "Vouwbaar meesterwerk voor maximale productiviteit en multitasking.",
+        "price": 69.0,
+        "releaseDate": "2025-08-12",
+        "imagePath": "img/phones/samsung-galaxy-z-fold7.jpg",
+        "colors": ["Navy", "Silver Shadow", "Titanium Gray"]
+    },
+    {
+        "id": 14,
+        "brand": "Apple",
+        "model": "iPhone SE (2026)",
+        "description": "Compact formaat met de rekenkracht van een volwaardige iPhone.",
+        "price": 24.0,
+        "releaseDate": "2026-03-25",
+        "imagePath": "img/phones/apple-iphone-se-2022.jpg",
+        "colors": ["Midnight", "Starlight", "Red"]
+    },
+    {
+        "id": 15,
+        "brand": "OnePlus",
+        "model": "Nord 5",
+        "description": "Premium functies voor een verrassend toegankelijke prijs.",
+        "price": 21.0,
+        "releaseDate": "2025-05-14",
+        "imagePath": "img/phones/oneplus-nord5.jpg",
+        "colors": ["Slate Gray", "Aqua Boost", "Marble White"]
+    },
+    {
+        "id": 16,
+        "brand": "Google",
+        "model": "Pixel 10a",
+        "description": "De slimme en voordelige keuze met de beste AI-fotofuncties.",
+        "price": 26.0,
+        "releaseDate": "2026-05-10",
+        "imagePath": "img/phones/google-pixel-10a.jpg",
+        "colors": ["Obsidian", "Porcelain", "Aloe"]
+    },
+    {
+        "id": 18,
+        "brand": "Samsung",
+        "model": "Galaxy Z Flip 7",
+        "description": "Stijlvol, compact en opvouwbaar met een vernieuwd coverscherm.",
+        "price": 47.0,
+        "releaseDate": "2025-08-12",
+        "imagePath": "img/phones/samsung-galaxy-z-flip7.jpg",
+        "colors": ["Mint", "Blue Black", "White", "Peach"]
+    }
+]
