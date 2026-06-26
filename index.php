@@ -20,7 +20,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm fixed-top">
+    <header>
+        <nav class="navbar navbar-expand-sm fixed-top bg-white">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
@@ -59,14 +60,6 @@
 
             <!-- Right side icons -->
             <ul class="navbar-nav ms-auto flex-row gap-1">
-
-                <!-- Search button -->
-                <li class="nav-item">
-                    <button class="btn nav-link px-2" id="searchToggle" aria-label="Search">
-                        <i class="bi bi-search"></i>
-                    </button>
-                </li>
-
                 <!-- User button -->
                 <li class="nav-item dropdown">
                     <button class="btn nav-link px-2" data-bs-toggle="dropdown" aria-label="User menu">
@@ -85,13 +78,31 @@
                         <a class="dropdown-item text-center" href="#">Registreren</a>
                     </div>
                 </li>
+
+                    <!-- Search button -->
+                    <li class="nav-item">
+                        <button class="btn nav-link px-2" id="searchToggle" data-bs-toggle="collapse" data-bs-target="#searchCollapse" aria-label="Search">
+                            <i class="bi bi-search fs-5"></i>
+                        </button>
+                    </li>
             </ul>
         </div>
     </nav>
 
-    <div id="searchBar" style="position: fixed; top: -60px; left: 0; width: 100%; z-index: 1020; transition: top 0.3s ease; background: #fff; border-bottom: 1px solid #dee2e6; padding: 10px 16px;">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Zoeken..." id="searchInput">
+    <!-- Search bar -->
+        <div class="container-fluid collapse bg-white border-bottom" id="searchCollapse">
+        <div class="input-group p-2">
+            <input type="text" class="form-control" placeholder="Zoeken...">
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-4">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
             <button class="btn btn-outline-secondary" id="searchClose">✕</button>
         </div>
     </div>
