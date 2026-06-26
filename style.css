@@ -56,4 +56,17 @@ body {
 /* main */
 main {
     margin-top: var(--navbar-height);
+    margin-inline: 10%;
+}
+
+#featured-phones {
+    height: 500px;
+}
+
+.carousel-control-prev {
+    left: max(-120px, -15%);
+}
+
+.carousel-control-next {
+    right: max(-120px, -15%);
 }

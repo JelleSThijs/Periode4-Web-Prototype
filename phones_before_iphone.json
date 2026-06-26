@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Motorola RAZR V3",
+    "brand": "Motorola",
+    "year": 2004,
+    "description": "An instant icon with a razor-thin aluminum body. Over 130 million units sold globally, cementing its status as a pop culture symbol.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Motov3.JPG/250px-Motov3.JPG"
+  },
+  {
+    "id": 2,
+    "name": "Samsung D500",
+    "brand": "Samsung",
+    "year": 2004,
+    "description": "A sleek slider phone with a 1.3MP camera and polyphonic ringtones that helped establish Samsung as a design-forward brand.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Samsung_d500.jpg/250px-Samsung_d500.jpg"
+  },
+  {
+    "id": 3,
+    "name": "BlackBerry 7290",
+    "brand": "BlackBerry",
+    "year": 2004,
+    "description": "One of the first colour-screen BlackBerrys, bringing push email and BBM to a wider business audience with a comfortable full QWERTY keyboard.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Blackberry_7290.jpg/250px-Blackberry_7290.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Nokia N70",
+    "brand": "Nokia",
+    "year": 2005,
+    "description": "A 3G pocket powerhouse running Symbian, combining speed and versatility for those who preferred not to wrestle with Windows Mobile.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Nokia_N70.jpg/250px-Nokia_N70.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Sony Ericsson W800i",
+    "brand": "Sony Ericsson",
+    "year": 2005,
+    "description": "The first phone to carry the legendary Walkman branding, with crisp stereo sound, a dedicated music button, and bold orange-and-white design.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/SonyEricssonW800i.jpg/250px-SonyEricssonW800i.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Nokia N91",
+    "brand": "Nokia",
+    "year": 2005,
+    "description": "The only Nokia phone with a hard drive — 4GB with room for 3,000 songs — and dedicated music keys for audiophiles.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Nokia_N91.jpg/250px-Nokia_N91.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Motorola RAZR V3i",
+    "brand": "Motorola",
+    "year": 2006,
+    "description": "An improved RAZR with a 1.2MP camera with 8x digital zoom and iTunes functionality for up to 100 songs.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Razrv3t.jpg/250px-Razrv3t.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Nokia N73",
+    "brand": "Nokia",
+    "year": 2006,
+    "description": "A media-forward phone with a large 2.4-inch display, stereo speakers, and a 3.2MP camera that appealed to multimedia fans.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Nokia_N73.jpg/250px-Nokia_N73.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Sony Ericsson K800i",
+    "brand": "Sony Ericsson",
+    "year": 2006,
+    "description": "The first Cyber-shot camera phone, with a 3.2MP sensor, Xenon flash, and a lens cover — it made people take camera phones seriously.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/SonyEricssonK800i.jpg/250px-SonyEricssonK800i.jpg"
+  },
+  {
+    "id": 10,
+    "name": "LG Chocolate (VX8500)",
+    "brand": "LG",
+    "year": 2006,
+    "description": "A sleek slider with touch-sensitive face buttons and an MP3 player. Its stylish branding helped it sell over 20 million units.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/LG_Chocolate_VX8500.jpg/250px-LG_Chocolate_VX8500.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Samsung E250",
+    "brand": "Samsung",
+    "year": 2006,
+    "description": "The best-selling slider phone of its era, moving over 30 million units worldwide with a simple, reliable design.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Samsung_SGH-E250.jpg/250px-Samsung_SGH-E250.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Motorola Q",
+    "brand": "Motorola",
+    "year": 2006,
+    "description": "A slim Windows Mobile smartphone and BlackBerry rival that packed a full QWERTY keyboard into a surprisingly thin candybar body.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Motorola-Q.jpg/250px-Motorola-Q.jpg"
+  },
+  {
+    "id": 13,
+    "name": "BlackBerry Pearl 8100",
+    "brand": "BlackBerry",
+    "year": 2006,
+    "description": "The first BlackBerry to look genuinely stylish, with a trackball and email capabilities that felt revolutionary at the time.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Blackberry_Pearl_8100.jpg/250px-Blackberry_Pearl_8100.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Samsung BlackJack (SGH-i607)",
+    "brand": "Samsung",
+    "year": 2006,
+    "description": "A notably slim Windows Mobile smartphone with Bluetooth 2.0 and push email, positioned as a direct BlackBerry rival.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Samsung_BlackJack.jpg/250px-Samsung_BlackJack.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Nokia N95",
+    "brand": "Nokia",
+    "year": 2007,
+    "description": "A GPS-enabled dual-slider with a 5MP camera, HSDPA, and expandable storage. So capable it might have reigned supreme if not for the iPhone.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Nokia_N95_RM-159.jpg/250px-Nokia_N95_RM-159.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Sony Ericsson W880i",
+    "brand": "Sony Ericsson",
+    "year": 2007,
+    "description": "A sleek, brushed-metal Walkman phone that was impressively thin for its time and a dream for music lovers.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/SonyEricssonW880i.jpg/250px-SonyEricssonW880i.jpg"
+  },
+  {
+    "id": 17,
+    "name": "BlackBerry Curve 8300",
+    "brand": "BlackBerry",
+    "year": 2007,
+    "description": "A phone with a perfect keyboard and BBM messaging that crossed over from business professionals to teens and everyday users.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/BlackBerry_Curve_8300.jpg/250px-BlackBerry_Curve_8300.jpg"
+  },
+  {
+    "id": 18,
+    "name": "LG Prada (KE850)",
+    "brand": "LG",
+    "year": 2007,
+    "description": "The first smartphone with a capacitive touchscreen, released just before the iPhone. LG later claimed Apple copied its design.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/LG_Prada_%28KE850%29.jpg/250px-LG_Prada_%28KE850%29.jpg"
+  },
+  {
+    "id": 19,
+    "name": "LG Viewty (KU990)",
+    "brand": "LG",
+    "year": 2007,
+    "description": "A 3G touchscreen phone with a 5MP autofocus camera and Schneider Kreuznach optics. Launched the very same month as the iPhone.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/LG_Viewty_KU990.jpg/250px-LG_Viewty_KU990.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Apple iPhone (1st generation)",
+    "brand": "Apple",
+    "year": 2007,
+    "description": "Released June 29, 2007. The phone that changed everything — a revolutionary multi-touch interface, desktop-class browser, and widescreen iPod in one device.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/IPhone_1st_Gen.svg/250px-IPhone_1st_Gen.svg.png"
+  }
+]
